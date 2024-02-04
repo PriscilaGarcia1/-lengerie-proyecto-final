@@ -1,0 +1,15 @@
+$colorPri: fuchsia ;
+$colorBlanco:white;
+$colorNegrito:#000000;
+$colorBonito: rgb(177, 49, 96);
+
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin produc-img{
+    width: 70%;
+   margin-top: 1rem;
+}
