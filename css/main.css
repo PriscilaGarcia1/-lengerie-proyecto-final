@@ -384,7 +384,6 @@
 /*destacados*/
 .destacados {
   background-color: palevioletred;
-  text-align: center;
 }
 .destacados .producto-titulo {
   font-family: Courgette;
@@ -555,6 +554,12 @@
     height: 30vh;
   }
 }
+/* contacto*/
+@media (max-width: 428px) {
+  .main-fondo1 {
+    height: 120vh;
+  }
+}
 /*main carusl*/
 @media (max-width: 810px) {
   .main-carusel .productos {
@@ -584,7 +589,6 @@
     height: 50vh;
   }
 }
-/* contacto*/
 .footer1 {
   background-color: #990b8d;
   text-align: center;

@@ -134,7 +134,7 @@
         .form-main {
          @include  flex-column;
             padding-left: 2rem;           
-             max-width: 200px;        
+             max-width: 200px;      
             .label-form {
                 font-family: Courgette;
                 color: rgb(0, 0, 0);
@@ -351,22 +351,17 @@
 }
 /*destacados*/
 .destacados {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
     background-color: palevioletred;
 
     .producto-titulo {
         font-family: Courgette;
         text-align: center;
         font-size: 3rem;
-    } 
+    }
 
     .div12 {
         max-width: 600px;
         margin: 0 auto;
-        
 
         .producto-img  {
             width: 80%;
@@ -386,18 +381,17 @@
                     height: auto;
                 }
                 
-            }   
-    } 
+            }  
+    }
 
     .producto-descripcion {
         text-align: center;
         color: rgb(0, 0, 0); 
-         
     }
 
     .producto-precio {
-        color: rgb(0, 0, 0);
-        font-weight: bold;
+        text-align: center;
+        color: rgb(0, 0, 0); 
     }
 
     .div123 {
@@ -413,7 +407,5 @@
         text-decoration: none;
         border-radius: 2px;
         margin-top: 10px;
-        cursor: pointer;
-        
     }
 }
